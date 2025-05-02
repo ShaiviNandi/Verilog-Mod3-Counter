@@ -1,0 +1,408 @@
+$date
+	Tue Dec 10 13:00:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_mod3_counter $end
+$var wire 3 ! tb_y [2:0] $end
+$var wire 2 " tb_q [1:0] $end
+$var reg 1 # tb_AR $end
+$var reg 1 $ tb_EN $end
+$var reg 1 % tb_clk $end
+$scope module uut $end
+$var wire 1 # AR $end
+$var wire 1 $ EN $end
+$var wire 1 % clk $end
+$var wire 3 & y [2:0] $end
+$var wire 2 ' state [1:0] $end
+$var wire 2 ( q [1:0] $end
+$var wire 2 ) next_state [1:0] $end
+$scope module dff0 $end
+$var wire 1 % clk $end
+$var wire 1 * d $end
+$var wire 1 + nd1 $end
+$var wire 1 , nd2 $end
+$var wire 1 - nd3 $end
+$var wire 1 . nd4 $end
+$var wire 1 / nr $end
+$var wire 1 0 q $end
+$var wire 1 1 q_bar $end
+$var wire 1 # rst $end
+$upscope $end
+$scope module dff1 $end
+$var wire 1 % clk $end
+$var wire 1 2 d $end
+$var wire 1 3 nd1 $end
+$var wire 1 4 nd2 $end
+$var wire 1 5 nd3 $end
+$var wire 1 6 nd4 $end
+$var wire 1 7 nr $end
+$var wire 1 8 q $end
+$var wire 1 9 q_bar $end
+$var wire 1 # rst $end
+$upscope $end
+$scope module nsl $end
+$var wire 1 # AR $end
+$var wire 1 $ EN $end
+$var wire 1 : en_and_q0 $end
+$var wire 1 ; en_and_q1 $end
+$var wire 1 < hold_state_0 $end
+$var wire 1 = hold_state_1 $end
+$var wire 2 > q [1:0] $end
+$var wire 2 ? next_state [1:0] $end
+$upscope $end
+$scope module ol $end
+$var wire 1 @ not_q0 $end
+$var wire 2 A q [1:0] $end
+$var wire 3 B y [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0xx B
+bx A
+x@
+bx ?
+bx >
+0=
+1<
+0;
+0:
+x9
+x8
+17
+x6
+15
+14
+x3
+x2
+x1
+x0
+1/
+x.
+1-
+1,
+x+
+x*
+bx )
+bx (
+bx '
+b0xx &
+0%
+0$
+0#
+bx "
+b0xx !
+$end
+#5000
+x,
+x-
+x4
+x5
+1%
+#10000
+0@
+b11 "
+b11 (
+12
+1*
+b0 !
+b0 &
+b0 B
+b11 )
+b11 ?
+01
+0+
+09
+03
+1.
+10
+16
+b11 '
+b11 >
+b11 A
+18
+1,
+1-
+14
+15
+0/
+07
+0%
+1#
+#15000
+0-
+05
+1%
+#20000
+1+
+13
+0.
+06
+1-
+15
+1/
+17
+0%
+0#
+#25000
+b10 !
+b10 &
+b10 B
+1@
+b0 "
+b0 (
+00
+b0 '
+b0 >
+b0 A
+08
+16
+11
+19
+0=
+02
+0,
+04
+0;
+0:
+b1 )
+b1 ?
+1%
+1$
+#30000
+03
+1,
+14
+0%
+#35000
+1.
+0*
+b0 )
+b0 ?
+0<
+b10 "
+b10 (
+1;
+b11 !
+b11 &
+b11 B
+09
+b10 '
+b10 >
+b10 A
+18
+0,
+05
+1%
+#40000
+0+
+1,
+15
+0%
+#45000
+12
+1*
+b11 )
+b11 ?
+1<
+1=
+b11 "
+b11 (
+1:
+0@
+b0 !
+b0 &
+b0 B
+01
+b11 '
+b11 >
+b11 A
+10
+0-
+05
+1%
+#50000
+1+
+13
+0.
+06
+1-
+15
+0%
+#55000
+16
+02
+b1 )
+b1 ?
+0=
+b10 !
+b10 &
+b10 B
+0:
+1@
+b0 "
+b0 (
+0;
+00
+b0 '
+b0 >
+b0 A
+08
+11
+19
+0,
+04
+1%
+#60000
+03
+1,
+14
+0%
+#65000
+1.
+0*
+b0 )
+b0 ?
+0<
+b10 "
+b10 (
+1;
+b11 !
+b11 &
+b11 B
+09
+b10 '
+b10 >
+b10 A
+18
+0,
+05
+1%
+#70000
+0+
+1,
+15
+0%
+#75000
+12
+1*
+b11 )
+b11 ?
+1<
+1=
+b11 "
+b11 (
+1:
+0@
+b0 !
+b0 &
+b0 B
+01
+b11 '
+b11 >
+b11 A
+10
+0-
+05
+1%
+#80000
+1+
+13
+0.
+06
+1-
+15
+0%
+#85000
+16
+02
+b1 )
+b1 ?
+0=
+b10 !
+b10 &
+b10 B
+0:
+1@
+b0 "
+b0 (
+0;
+00
+b0 '
+b0 >
+b0 A
+08
+11
+19
+0,
+04
+1%
+#90000
+03
+1,
+14
+0%
+#95000
+b10 "
+b10 (
+12
+b11 !
+b11 &
+b11 B
+09
+1.
+b10 '
+b10 >
+b10 A
+18
+0*
+0,
+05
+b10 )
+b10 ?
+1%
+0$
+#100000
+13
+0+
+06
+1,
+15
+0%
+#105000
+16
+b1 !
+b1 &
+b1 B
+b1 "
+b1 (
+02
+1*
+0@
+01
+b1 )
+b1 ?
+08
+b1 '
+b1 >
+b1 A
+10
+19
+0-
+04
+1%
+#110000
+1+
+0.
+03
+1-
+14
+0%
+#113000
